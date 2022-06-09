@@ -5,7 +5,6 @@ ENV ENV /etc/profile
 
 # General
 RUN apk update
-RUN mv /etc/profile.d/color_prompt /etc/profile.d/color_prompt.sh
 
 # Timezone
 RUN apk add --no-cache tzdata
